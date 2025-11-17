@@ -1,6 +1,17 @@
 # 📣 Digital Marketing Campaign Performance Analytics  
 A data-driven analysis of multi-channel campaign effectiveness using **Snowflake SQL**, **Databricks**, **Python**, and **Pandas**.
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python" />
+  <img src="https://img.shields.io/badge/Snowflake-SQL-blue?style=flat&logo=snowflake" />
+  <img src="https://img.shields.io/badge/Databricks-Notebooks-orange?style=flat&logo=databricks" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?style=flat&logo=pandas" />
+  <img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-lightgrey?style=flat&logo=numpy" />
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-green?style=flat&logo=matplotlib" />
+  <img src="https://img.shields.io/badge/SQL-Analytics-red?style=flat&logo=postgresql" />
+</p>
+
+
 ## 🚀 Project Overview  
 This project explores how different marketing campaigns perform across channels, ad spend, and audience segments. It uses Snowflake for data engineering and segmentation, and Databricks for behavioral analysis and visualization, helping to answer key acquisition questions around ROI, engagement, and conversion.
 
@@ -12,7 +23,7 @@ This project explores how different marketing campaigns perform across channels,
 - Produce actionable insights to inform marketing strategy and budget allocation.
 
 ## 📊 Dataset Summary  
-The dataset was originally stored in Snowflake, then exported to CSV for analysis in Databricks. Key fields include:
+The dataset, which was originally from [Kaggle](https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset) was originally stored in Snowflake, then exported to CSV for analysis in Databricks. Key fields include:
 
 - **Customer attributes**: AGE, GENDER, INCOME  
 - **Campaign attributes**: CAMPAIGNCHANNEL, CAMPAIGNTYPE, ADVERTISINGPLATFORM, ADVERTISINGTOOL  
@@ -83,7 +94,6 @@ The Databricks notebook includes:
 └── README.md
 ```
 
-
 ## 🔮 Future Enhancements  
 - Build a **predictive model** to forecast campaign ROI using regression / ML  
 - Develop a **cohort-based retention & re-engagement model**  
@@ -95,3 +105,10 @@ The Databricks notebook includes:
 Data Analyst — Marketing Analytics & Acquisition Strategy  
 GitHub: https://github.com/hgbidon  
 LinkedIn: https://linkedin.com/in/hgbidon  
+
+## Topics
+digital-marketing,
+marketing-strategy,
+campaign-optimization,
+roi-analysis,
+consumer-behavior
