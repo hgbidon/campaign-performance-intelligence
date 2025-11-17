@@ -1,0 +1,13 @@
+USE DATABASE "Digital Marketing Campaign";
+USE SCHEMA PUBLIC;
+
+SELECT
+    CAMPAIGNTYPE,
+    COUNT(*) AS total_records,
+    AVG(CONVERSION) AS avg_conversion
+FROM MARKETING_CAMPAIGNS
+GROUP BY CAMPAIGNTYPE
+ORDER BY avg_conversion DESC;
+
+
+
